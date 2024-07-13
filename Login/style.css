@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border-style: none;
+}
+
+body{
+    background: #f0f2f5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    height: 608;
+}
+
+section{
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 240px;
+    height: 79px;
+}
+
+.card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.193);
+    color: #1c1e21;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card__titulo{
+    font-size: 20px;
+}
+
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo__input{
+    border: solid 1px;
+    border-color: rgb(222, 222, 222);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+
+}
+
+button{
+    color: white;
+    background-color: #1877f2;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.card__links{
+    display: flex;
+    gap: 10px;
+}
+
+.a1{
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.a2{
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
